@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "onegai",
+  "version": "${version}",
+  "name": "onegai",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/onegai/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.example2.onegai.client.OnegaiDataGenerator"
+    ],
+    "client": [
+      "org.example2.onegai.client.OnegaiClient"
+    ],
+    "main": [
+      "org.example2.onegai.Onegai"
+    ]
+  },
+  "mixins": [
+    "onegai.mixins.json",
+    {
+      "config": "onegai.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
