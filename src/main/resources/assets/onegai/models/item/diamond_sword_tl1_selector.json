@@ -1,0 +1,47 @@
+{
+  "parent": "onegai:item/diamond_sword_tl1",
+  "overrides": [
+    {
+      "predicate": {
+        "onegai:right_badge_level": 1
+      },
+      "model": "onegai:item/diamond_sword_tl1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 2
+      },
+      "model": "onegai:item/diamond_sword_tl1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1
+      },
+      "model": "onegai:item/diamond_sword_tl1_l1_selector"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 2
+      },
+      "model": "onegai:item/diamond_sword_tl1_l2_selector"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 3
+      },
+      "model": "onegai:item/diamond_sword_tl1_l3_selector"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 4
+      },
+      "model": "onegai:item/diamond_sword_tl1_l4_selector"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 5
+      },
+      "model": "onegai:item/diamond_sword_tl1_l5_selector"
+    }
+  ]
+}

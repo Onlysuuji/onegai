@@ -1,0 +1,1623 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_r1"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_r2"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_r3"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_r4"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_r5"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_l1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_l2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_l3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_l4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_l5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_l1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_l1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_l2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_l2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_l3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_l3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_l4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_l4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_l4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_l5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_l5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_l5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_l5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_l5_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_l1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_l2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_l3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_l4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_l5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_l1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_l2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_l3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_l4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_l5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_l1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_l2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_l3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_l4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_l5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_l1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_l2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_l3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_l4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_l5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_l1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_l2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_l3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_l4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_l5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_l1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_l1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_l2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_l2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_l3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_l3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_l4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_l4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_l4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl1_l5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl1_l5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl1_l5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl1_l5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.2,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl1_l5_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_l1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_l1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_l2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_l2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_l3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_l3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_l4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_l4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_l4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl2_l5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl2_l5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl2_l5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl2_l5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.4,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl2_l5_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_l1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_l1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_l2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_l2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_l3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_l3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_l4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_l4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_l4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl3_l5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl3_l5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl3_l5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl3_l5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.6,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl3_l5_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_l1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_l1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_l2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_l2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_l3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_l3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_l4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_l4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_l4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl4_l5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl4_l5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl4_l5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl4_l5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 0.8,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl4_l5_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_l1_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_l1_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_l2_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_l2_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_l3_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_l3_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_l4_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_l4_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_l4_r5"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_sword_tl5_l5_r1"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_sword_tl5_l5_r2"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_sword_tl5_l5_r3"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_sword_tl5_l5_r4"
+    },
+    {
+      "predicate": {
+        "onegai:top_left_badge_level": 1.0,
+        "onegai:left_badge_level": 1.0,
+        "onegai:right_badge_level": 1.0
+      },
+      "model": "onegai:item/golden_sword_tl5_l5_r5"
+    }
+  ]
+}

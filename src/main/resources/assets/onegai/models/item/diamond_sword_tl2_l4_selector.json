@@ -1,0 +1,17 @@
+{
+  "parent": "onegai:item/diamond_sword_tl2_l4",
+  "overrides": [
+    {
+      "predicate": {
+        "onegai:right_badge_level": 1
+      },
+      "model": "onegai:item/diamond_sword_tl2_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 2
+      },
+      "model": "onegai:item/diamond_sword_tl2_l4_r2"
+    }
+  ]
+}

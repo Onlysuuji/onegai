@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword",
+    "layer1": "onegai:item/top_left_1",
+    "layer2": "onegai:item/right_1"
+  }
+}
