@@ -1,0 +1,336 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/enchanted_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.125
+      },
+      "model": "onegai:item/enchanted_book_sharpness"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.25
+      },
+      "model": "onegai:item/enchanted_book_unbreaking"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.375
+      },
+      "model": "onegai:item/enchanted_book_protection"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.5
+      },
+      "model": "onegai:item/enchanted_book_looting"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.625
+      },
+      "model": "onegai:item/enchanted_book_fire_aspect"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.75
+      },
+      "model": "onegai:item/enchanted_book_efficiency"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.875
+      },
+      "model": "onegai:item/enchanted_book_fortune"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 1.0
+      },
+      "model": "onegai:item/enchanted_book_depth_strider"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.125,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_sharpness_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.125,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_sharpness_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.125,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_sharpness_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.125,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_sharpness_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.125,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_sharpness_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.25,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_unbreaking_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.25,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_unbreaking_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.25,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_unbreaking_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.25,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_unbreaking_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.25,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_unbreaking_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.375,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_protection_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.375,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_protection_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.375,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_protection_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.375,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_protection_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.375,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_protection_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.5,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_looting_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.5,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_looting_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.5,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_looting_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.5,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_looting_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.5,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_looting_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.625,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_fire_aspect_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.625,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_fire_aspect_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.625,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_fire_aspect_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.625,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_fire_aspect_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.625,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_fire_aspect_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.75,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_efficiency_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.75,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_efficiency_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.75,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_efficiency_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.75,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_efficiency_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.75,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_efficiency_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.875,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_fortune_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.875,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_fortune_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.875,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_fortune_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.875,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_fortune_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 0.875,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_fortune_l5"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 1.0,
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/enchanted_book_depth_strider_l1"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 1.0,
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/enchanted_book_depth_strider_l2"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 1.0,
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/enchanted_book_depth_strider_l3"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 1.0,
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/enchanted_book_depth_strider_l4"
+    },
+    {
+      "predicate": {
+        "onegai:book_badge_type": 1.0,
+        "onegai:left_badge_level": 1.0
+      },
+      "model": "onegai:item/enchanted_book_depth_strider_l5"
+    }
+  ]
+}

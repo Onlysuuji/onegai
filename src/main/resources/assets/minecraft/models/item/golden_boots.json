@@ -1,0 +1,134 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_boots"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_boots_r1"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_boots_r2"
+    },
+    {
+      "predicate": {
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_boots_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_boots_l1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_boots_l2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_boots_l3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_boots_l4"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_boots_l1_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_boots_l1_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_boots_l1_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_boots_l2_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_boots_l2_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_boots_l2_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_boots_l3_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_boots_l3_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_boots_l3_r3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_boots_l4_r1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_boots_l4_r2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8,
+        "onegai:right_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_boots_l4_r3"
+    }
+  ]
+}

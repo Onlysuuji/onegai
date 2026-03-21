@@ -16,10 +16,11 @@ public class OnegaiClient implements ClientModInitializer {
     private static final Identifier LEFT_BADGE_LEVEL_ID = Identifier.of("onegai", "left_badge_level");
     private static final Identifier RIGHT_BADGE_LEVEL_ID = Identifier.of("onegai", "right_badge_level");
     private static final Identifier TOP_LEFT_BADGE_LEVEL_ID = Identifier.of("onegai", "top_left_badge_level");
+    private static final Identifier BOOK_BADGE_TYPE_ID = Identifier.of("onegai", "book_badge_type");
 
     @Override
     public void onInitializeClient() {
-        System.out.println("ONEGAI CLIENT LOADED 2026-03-22 ARMOR OVERLAY 1.21.1");
+        System.out.println("ONEGAI CLIENT LOADED 2026-03-22 BOOK BADGE PATCH");
 
         registerBadgeProperties(Items.DIAMOND_SWORD);
         registerBadgeProperties(Items.IRON_SWORD);
@@ -30,6 +31,22 @@ public class OnegaiClient implements ClientModInitializer {
         registerBadgeProperties(Items.DIAMOND_SHOVEL);
         registerBadgeProperties(Items.IRON_SHOVEL);
         registerBadgeProperties(Items.GOLDEN_SHOVEL);
+
+        registerBadgeProperties(Items.DIAMOND_HELMET);
+        registerBadgeProperties(Items.DIAMOND_CHESTPLATE);
+        registerBadgeProperties(Items.DIAMOND_LEGGINGS);
+        registerBadgeProperties(Items.DIAMOND_BOOTS);
+        registerBadgeProperties(Items.IRON_HELMET);
+        registerBadgeProperties(Items.IRON_CHESTPLATE);
+        registerBadgeProperties(Items.IRON_LEGGINGS);
+        registerBadgeProperties(Items.IRON_BOOTS);
+        registerBadgeProperties(Items.GOLDEN_HELMET);
+        registerBadgeProperties(Items.GOLDEN_CHESTPLATE);
+        registerBadgeProperties(Items.GOLDEN_LEGGINGS);
+        registerBadgeProperties(Items.GOLDEN_BOOTS);
+
+        registerBadgeProperties(Items.ENCHANTED_BOOK);
+        registerBookTypeProperty(Items.ENCHANTED_BOOK);
 
         LivingEntityFeatureRendererRegistrationCallback.EVENT.register((entityType, entityRenderer, registrationHelper, context) -> {
             if (entityType == EntityType.PLAYER && entityRenderer instanceof PlayerEntityRenderer playerRenderer) {
@@ -58,6 +75,14 @@ public class OnegaiClient implements ClientModInitializer {
                 item,
                 TOP_LEFT_BADGE_LEVEL_ID,
                 (stack, world, entity, seed) -> EnchantmentBadgeUtil.getTopLeftBadgeLevel(stack, world)
+        );
+    }
+
+    private static void registerBookTypeProperty(Item item) {
+        ModelPredicateProviderRegistry.register(
+                item,
+                BOOK_BADGE_TYPE_ID,
+                (stack, world, entity, seed) -> EnchantmentBadgeUtil.getBookBadgeType(stack, world)
         );
     }
 }

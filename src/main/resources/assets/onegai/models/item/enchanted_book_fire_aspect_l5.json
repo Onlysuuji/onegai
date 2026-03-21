@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "onegai:item/book_fire_aspect",
+    "layer1": "onegai:item/left_5"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_helmet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.2
+      },
+      "model": "onegai:item/golden_helmet_l1"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.4
+      },
+      "model": "onegai:item/golden_helmet_l2"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.6
+      },
+      "model": "onegai:item/golden_helmet_l3"
+    },
+    {
+      "predicate": {
+        "onegai:left_badge_level": 0.8
+      },
+      "model": "onegai:item/golden_helmet_l4"
+    }
+  ]
+}
