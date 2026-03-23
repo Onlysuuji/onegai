@@ -63,6 +63,10 @@ public class ProtectionArmorOverlayFeatureRenderer extends FeatureRenderer<Abstr
             float headYaw,
             float headPitch
     ) {
+        if (!ClientFeatureToggle.isEnabled()) {
+            return;
+        }
+
         renderPiece(matrices, vertexConsumers, light, player, EquipmentSlot.HEAD, player.getEquippedStack(EquipmentSlot.HEAD));
         renderPiece(matrices, vertexConsumers, light, player, EquipmentSlot.CHEST, player.getEquippedStack(EquipmentSlot.CHEST));
         renderPiece(matrices, vertexConsumers, light, player, EquipmentSlot.LEGS, player.getEquippedStack(EquipmentSlot.LEGS));
@@ -93,9 +97,6 @@ public class ProtectionArmorOverlayFeatureRenderer extends FeatureRenderer<Abstr
 
         BipedEntityModel<AbstractClientPlayerEntity> armorModel = getArmorModel(player, slot);
 
-        // Important:
-        // copy the already animated player pose so the overlay stays attached
-        // to the armor motion instead of looking like a separately posed layer.
         this.getContextModel().copyBipedStateTo(armorModel);
         armorModel.setVisible(false);
         setPartVisibility(armorModel, slot);

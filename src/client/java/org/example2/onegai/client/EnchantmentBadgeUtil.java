@@ -21,6 +21,9 @@ public final class EnchantmentBadgeUtil {
     }
 
     public static float getLeftBadgeLevel(ItemStack stack, ClientWorld world) {
+        if (!ClientFeatureToggle.isEnabled()) {
+            return 0.0F;
+        }
         if (stack.isOf(Items.ENCHANTED_BOOK)) {
             return normalizeMappedLevel(getSelectedBookEnchantmentLevel(stack, world), LEVELS_1_TO_5);
         }
@@ -37,6 +40,9 @@ public final class EnchantmentBadgeUtil {
     }
 
     public static float getRightBadgeLevel(ItemStack stack, ClientWorld world) {
+        if (!ClientFeatureToggle.isEnabled()) {
+            return 0.0F;
+        }
         if (isSupportedSword(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.FIRE_ASPECT), LEVELS_1_TO_5);
         }
@@ -50,6 +56,9 @@ public final class EnchantmentBadgeUtil {
     }
 
     public static float getTopLeftBadgeLevel(ItemStack stack, ClientWorld world) {
+        if (!ClientFeatureToggle.isEnabled()) {
+            return 0.0F;
+        }
         if (isSupportedSword(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.KNOCKBACK), LEVELS_1_TO_5);
         }
@@ -57,6 +66,9 @@ public final class EnchantmentBadgeUtil {
     }
 
     public static float getBookBadgeType(ItemStack stack, ClientWorld world) {
+        if (!ClientFeatureToggle.isEnabled()) {
+            return 0.0F;
+        }
         if (!stack.isOf(Items.ENCHANTED_BOOK)) {
             return 0.0F;
         }
@@ -69,6 +81,9 @@ public final class EnchantmentBadgeUtil {
     }
 
     public static int getProtectionArmorLevel(ItemStack stack, ClientWorld world) {
+        if (!ClientFeatureToggle.isEnabled()) {
+            return 0;
+        }
         if (!(stack.getItem() instanceof ArmorItem)) {
             return 0;
         }
@@ -127,7 +142,8 @@ public final class EnchantmentBadgeUtil {
     private static boolean isSupportedSword(ItemStack stack) {
         return stack.isOf(Items.DIAMOND_SWORD)
                 || stack.isOf(Items.IRON_SWORD)
-                || stack.isOf(Items.GOLDEN_SWORD);
+                || stack.isOf(Items.GOLDEN_SWORD)
+                || stack.isOf(Items.STONE_SWORD);
     }
 
     private static boolean isSupportedTool(ItemStack stack) {
