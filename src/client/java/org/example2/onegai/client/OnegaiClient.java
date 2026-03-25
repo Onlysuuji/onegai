@@ -62,6 +62,7 @@ public class OnegaiClient implements ClientModInitializer {
         registerBadgeProperties(Items.DIAMOND_SHOVEL);
         registerBadgeProperties(Items.IRON_SHOVEL);
         registerBadgeProperties(Items.GOLDEN_SHOVEL);
+        registerBadgeProperties(Items.BOW);
 
         registerBadgeProperties(Items.DIAMOND_HELMET);
         registerBadgeProperties(Items.DIAMOND_CHESTPLATE);

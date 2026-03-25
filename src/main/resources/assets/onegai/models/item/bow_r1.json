@@ -1,0 +1,28 @@
+{
+    "parent":  "onegai:item/bow_base",
+    "textures":  {
+                     "layer1":  "onegai:item/right_1"
+                 },
+    "overrides":  [
+                      {
+                          "predicate":  {
+                                            "pulling":  1
+                                        },
+                          "model":  "onegai:item/bow_r1_pulling_0"
+                      },
+                      {
+                          "predicate":  {
+                                            "pulling":  1,
+                                            "pull":  0.65
+                                        },
+                          "model":  "onegai:item/bow_r1_pulling_1"
+                      },
+                      {
+                          "predicate":  {
+                                            "pulling":  1,
+                                            "pull":  0.9
+                                        },
+                          "model":  "onegai:item/bow_r1_pulling_2"
+                      }
+                  ]
+}

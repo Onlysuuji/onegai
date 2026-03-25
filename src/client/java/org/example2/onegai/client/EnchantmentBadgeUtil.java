@@ -33,6 +33,9 @@ public final class EnchantmentBadgeUtil {
         if (isSupportedTool(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.EFFICIENCY), LEVELS_1_TO_5);
         }
+        if (isSupportedBow(stack)) {
+            return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.POWER), LEVELS_1_TO_5);
+        }
         if (isSupportedArmor(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.PROTECTION), LEVELS_1_TO_5);
         }
@@ -49,6 +52,9 @@ public final class EnchantmentBadgeUtil {
         if (isSupportedTool(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.FORTUNE), LEVELS_1_TO_5);
         }
+        if (isSupportedBow(stack)) {
+            return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.FLAME), LEVELS_1_TO_5);
+        }
         if (isSupportedBoots(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.DEPTH_STRIDER), LEVELS_1_TO_5);
         }
@@ -61,6 +67,9 @@ public final class EnchantmentBadgeUtil {
         }
         if (isSupportedSword(stack)) {
             return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.KNOCKBACK), LEVELS_1_TO_5);
+        }
+        if (isSupportedBow(stack)) {
+            return normalizeMappedLevel(getEnchantmentLevel(stack, world, Enchantments.INFINITY), LEVELS_1_TO_5);
         }
         return 0.0F;
     }
@@ -153,6 +162,10 @@ public final class EnchantmentBadgeUtil {
                 || stack.isOf(Items.DIAMOND_SHOVEL)
                 || stack.isOf(Items.IRON_SHOVEL)
                 || stack.isOf(Items.GOLDEN_SHOVEL);
+    }
+
+    private static boolean isSupportedBow(ItemStack stack) {
+        return stack.isOf(Items.BOW);
     }
 
     private static boolean isSupportedArmor(ItemStack stack) {
